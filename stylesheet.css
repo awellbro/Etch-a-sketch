@@ -1,0 +1,18 @@
+body {
+    height: 100%;
+    background: black;
+    color: white;
+}
+
+#squareDivs{
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.newDiv {
+    border: solid 5px green;
+    flex-grow: 1;
+}
