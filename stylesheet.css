@@ -1,18 +1,32 @@
+html {
+    display: flex;
+    height: 100%;
+}
+
 body {
+    display: flex;
+    justify-content: center;
     height: 100%;
     background: black;
     color: white;
+
 }
 
 #squareDivs{
     min-height: 100%;
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
 }
 
 .newDiv {
-    border: solid 5px green;
-    flex-grow: 1;
+    border: solid 5px rgb(47, 106, 47);
+    padding: 0px;
+    margin: 0px;
+    height: 12%;
+    width: 12%;
+    flex-grow: 0 1 auto;
+    
 }
