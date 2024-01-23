@@ -34,7 +34,3 @@ body {
     flex-grow: 1;
     
 }
-
-.newDiv:hover {
-    background-color: pink;
-}

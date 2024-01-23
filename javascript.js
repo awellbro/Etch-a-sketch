@@ -5,9 +5,15 @@ const newDiv = document.createElement("div");
 
 newDiv.setAttribute("class", "newDiv");
 
-
 mkSq.appendChild(newDiv);
 };
 
-const divCount = document.querySelectorAll(".newDiv");
-console.log(divCount.length);
+const path = document.querySelector("#squareDivs");
+
+path.addEventListener('mouseenter', ()=>{
+
+    const draw = document.querySelectorAll('.newDiv');
+
+    draw.style.backgroundColor = "blue";
+})
+
