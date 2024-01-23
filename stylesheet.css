@@ -7,26 +7,34 @@ body {
     display: flex;
     justify-content: center;
     height: 100%;
+    width: 100%;
     background: black;
     color: white;
 
 }
 
 #squareDivs{
-    min-height: 100%;
+    margin: 0px;
+    padding: 0px;
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
+    height: 256px;
+    width: 256px;
 }
 
 .newDiv {
-    border: solid 5px rgb(47, 106, 47);
+    background-color: rgb(59, 59, 59);
     padding: 0px;
     margin: 0px;
-    height: 12%;
-    width: 12%;
-    flex-grow: 0 1 auto;
+    height: 8%;
+    width: 8%;
+    flex-grow: 1;
     
+}
+
+.newDiv:hover {
+    background-color: pink;
 }
