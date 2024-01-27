@@ -1,9 +1,12 @@
-
+let countPix = prompt("How Many Pixels(Sqred)");
+let newCount = countPix * countPix;
 //selecting the retainer for the pixels to go in
 const mkSq = document.querySelector("#squareDivs");
 
+
 //creates a 16x16 grid to draw on
-for(let i=0; i<256; i++){
+for(let i=0; i < newCount; i++){
+   console.log(newCount);
 const newDiv = document.createElement("div");
 
 newDiv.setAttribute("class", "newDiv");

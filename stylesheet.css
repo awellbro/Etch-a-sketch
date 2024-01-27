@@ -20,17 +20,15 @@ body {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: stretch;
-    height: 256px;
-    width: 256px;
+    max-width: 100px;
+    max-height: 20px;
 }
 
 .newDiv {
     background-color: rgb(59, 59, 59);
     padding: 0px;
     margin: 0px;
-    height: 8%;
-    width: 8%;
     flex-grow: 1;
-    
+    height: 4px;
+    width: 4px;
 }
